@@ -31,6 +31,7 @@ The following indicates the web server's address for sending parsed tweets
 The following indicates the listening port for receiving API calls (e.g. addition/removal of articlesets)
 -define(LISTENING_PORT, 8081).
 
+
 Part 2.
 The folder \config contains configuration files for the distributed nodes (see book on otp distributed). Modify these files, and change the host to your own: e.g. from  c@AlottaFagina you change it to c@YourHostStringThatYourPCHas
 
