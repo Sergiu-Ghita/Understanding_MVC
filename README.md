@@ -67,6 +67,8 @@ First shell:
 
     erl -sname a -config config/a -s ssl -s inets -s crypto -pa ebin deps/oauth/ebin deps/json/ebin deps/jsx/ebin deps/jsonpointer/ebin libs/tweet_parser/ebin libs/keyword_registry/ebin
 
+----
+
 Second shell:
 
     erl -sname b -config config/b -s ssl -s inets -s crypto -pa ebin deps/oauth/ebin deps/json/ebin deps/jsx/ebin deps/jsonpointer/ebin libs/tweet_parser/ebin libs/keyword_registry/ebin
